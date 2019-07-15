@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addNotes"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/abc">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:hint="Title"
+        android:textAlignment="center"
+        android:id="@+id/e1"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:hint="Disciption"
+        android:textAlignment="center"
+        android:id="@+id/e2"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:hint="Add"
+        android:textAlignment="center"
+        android:background="@android:color/holo_orange_light"
+        android:id="@+id/btn1"/>
+
+</LinearLayout>

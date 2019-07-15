@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "939055121103",
+    "firebase_url": "https://socialauthentication-29ec3.firebaseio.com",
+    "project_id": "socialauthentication-29ec3",
+    "storage_bucket": "socialauthentication-29ec3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939055121103:android:ec8b2bd41610f7cf",
+        "android_client_info": {
+          "package_name": "com.example.socialauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939055121103-1b3bs006ruq5kvd7jj3sjgs8v97ipahe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.socialauthentication",
+            "certificate_hash": "b9ec4b388aa6270207869b52a8b28207953c6cd2"
+          }
+        },
+        {
+          "client_id": "939055121103-el1sa9bmrpfmiugbj6e9nu6lol4pnr1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIY8YScMUzcyM_OFoS5s6UIi6riAJpkMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939055121103-el1sa9bmrpfmiugbj6e9nu6lol4pnr1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

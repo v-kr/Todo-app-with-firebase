@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Bulb glowing</string>
+    <string name="msg_err">"flash not found"</string>
+</resources>

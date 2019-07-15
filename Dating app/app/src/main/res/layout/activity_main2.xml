@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:background="@drawable/abc"
+    >
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:focusable="true"
+        app:passwordToggleEnabled="true"
+        android:focusableInTouchMode="true"
+
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/Username"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:hint="Enter Username"
+            android:textSize="15sp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:focusable="true"
+        app:passwordToggleEnabled="true"
+        android:focusableInTouchMode="true"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/email2"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:hint="email"
+            android:textSize="15sp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:focusable="true"
+        app:passwordToggleEnabled="true"
+        android:focusableInTouchMode="true"
+
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:hint="Phone no"
+            android:textSize="15sp"
+            android:id="@+id/phonenumber2"
+            android:inputType="phone"
+            android:layout_marginTop="100dp"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:focusable="true"
+        app:passwordToggleEnabled="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:id="@+id/date"
+            android:ems="3"
+            android:inputType="text"
+            android:textSize="20dp"
+            android:hint="DOB" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="15dp"
+            android:text="Gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:textSize="15dp"
+            android:text="Male"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:textSize="15dp"
+            android:text="Female"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RadioGroup>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:focusable="true"
+        app:passwordToggleEnabled="true"
+        android:focusableInTouchMode="true"
+
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/city2"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:hint="Enter City"
+            android:textSize="15sp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:focusable="true"
+        app:passwordToggleEnabled="true"
+        android:focusableInTouchMode="true"
+
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:hint="Enter address"
+            android:textSize="15sp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--<com.google.android.material.textfield.TextInputLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:focusable="true"-->
+    <!--app:passwordToggleEnabled="true"-->
+    <!--android:focusableInTouchMode="true"-->
+    <!--android:textColorHint="@color/button1relesed"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<EditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="75dp"-->
+    <!--android:hint="Postalcode"-->
+    <!--android:textSize="15sp"-->
+    <!--android:id="@+id/postalcode"-->
+    <!--android:inputType="phone"-->
+
+
+
+    <!--/>-->
+    <!--</com.google.android.material.textfield.TextInputLayout>-->
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:text="SUBMIT"
+        android:id="@+id/submitbtn2"
+        android:textColor="@android:color/white"/>
+
+
+
+
+</LinearLayout>

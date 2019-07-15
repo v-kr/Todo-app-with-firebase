@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:id="@+id/result"
+    android:hint="C ="
+    android:textAlignment="gravity"
+    android:textSize="60dp"
+    android:inputType="numberDecimal"
+    android:layout_margin="10dp"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:textSize="40dp"
+        android:height="80dp"
+        android:background="#6A89CC"
+        android:id="@+id/CLEAR"
+        android:layout_margin="8dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/darker_gray"
+        android:hint="USDollar"
+        android:textSize="40dp"
+        android:id="@+id/USDollar"
+        android:layout_margin="8dp"
+        android:inputType="numberDecimal"
+        />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:height="90dp"
+    android:background="@android:color/holo_blue_light"
+    android:textSize="40dp"
+    android:hint="YER"
+    android:id="@+id/YER"
+    android:layout_margin="8dp"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="80dp"
+        android:hint="CAD"
+        android:textSize="40dp"
+        android:id="@+id/CAD"
+        android:layout_margin="8dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="80dp"
+        android:textSize="40dp"
+        android:hint="EUR"
+        android:background="@android:color/holo_orange_dark"
+        android:id="@+id/EUR"
+        android:layout_margin="8dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="80dp"
+        android:hint="AUD"
+        android:textSize="40dp"
+        android:background="@android:color/holo_green_dark"
+        android:id="@+id/AUD"
+        android:layout_margin="8dp"
+        />
+
+
+</LinearLayout>
